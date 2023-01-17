@@ -16,7 +16,7 @@ jobs:
       solution_folder: out/solutions/
       solution_target_folder: solutions/
       BUILD_ENVIRONMENT_URL: https://orgb73e9d40.crm8.dynamics.com/
-      CLIENT_ID: eaa40467-3044-4950-aa42-7807b5d9af90
+      CLIENT_ID: b860a8f8-2272-451c-858f-facd5b520abf
       TENANT_ID: 9266279a-ff91-4a96-8d28-af7bde6e0b98 
     secrets:
       envSecret: ${{ secrets.PowerPlatformSPN }}
@@ -30,7 +30,7 @@ jobs:
       #Update your values here
       BUILD_ENVIRONMENT_URL: https://orgb73e9d40.crm8.dynamics.com/
       PRODUCTION_ENVIRONMENT_URL: https://orgd0989e10.crm6.dynamics.com
-      CLIENT_ID: eaa40467-3044-4950-aa42-7807b5d9af90
+      CLIENT_ID: b860a8f8-2272-451c-858f-facd5b520abf
       TENANT_ID: 9266279a-ff91-4a96-8d28-af7bde6e0b98    
     secrets:
       envSecret: ${{ secrets.PowerPlatformSPN }}
