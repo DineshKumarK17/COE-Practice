@@ -48,7 +48,7 @@ env:
   ENVIRONMENT_URL: 'https://orgb73e9d40.crm8.dynamics.com/'
   CLIENT_ID: 'eaa40467-3044-4950-aa42-7807b5d9af90'
   TENANT_ID: '9266279a-ff91-4a96-8d28-af7bde6e0b98'
-  envSecret: 'vs68Q~fm~9zNCRJ2CLMdYEt2QcbhRYz7tTNYpdh'
+  envSecret: 'b860a8f8-2272-451c-858f-facd5b520abf'
 
 jobs:
   export-from-dev:
