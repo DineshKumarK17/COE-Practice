@@ -11,7 +11,7 @@ jobs:
     uses: ./.github/workflows/export-and-branch-solution.yml
     with:
       #You can specify the solution name here
-      solution_name: PowerPlatformDevopsSolution
+      solution_name: ALMLab
       solution_exported_folder: out/exported/
       solution_folder: out/solutions/
       solution_target_folder: solutions/
@@ -26,10 +26,10 @@ jobs:
     uses: ./.github/workflows/release-solution-to-prod-with-inputs.yml
     with:
       #You can specify the solution name here
-      solution_name: PowerPlatformDevopsSolution
+      solution_name: ALMLab
       #Update your values here
       BUILD_ENVIRONMENT_URL: https://orgb73e9d40.crm8.dynamics.com/
-      PRODUCTION_ENVIRONMENT_URL: https://orgd0989e10.crm6.dynamics.com
+      PRODUCTION_ENVIRONMENT_URL: https://orgf74efde9.crm8.dynamics.com/
       CLIENT_ID: b860a8f8-2272-451c-858f-facd5b520abf
       TENANT_ID: 9266279a-ff91-4a96-8d28-af7bde6e0b98    
     secrets:
